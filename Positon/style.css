@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mydiv{
+   
+    position: relative;
+
+}
+.mydiv img:first-child{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 600px;
+    top: 250px;
+    align-items: center;
+}
+.mydiv img:nth-child(2){
+    position:absolute;
+    top: 280px;
+    height: 40px;
+    left:500px;
+     animation :13s abc infinite alternate;
+}
+.mydiv img:nth-child(3){
+    position:absolute;
+    top: 220px;
+    height: 40px;
+    left:550px;
+     animation :13s abc infinite alternate;
+}
+.mydiv img:nth-child(4){
+    position:absolute;
+    top: 220px;
+    height: 45px;
+    left:720px;
+    animation :13s abc infinite alternate;
+}
+.mydiv img:last-child{
+    position:absolute;
+    top: 285px;
+    height: 45px;
+    left:740px;
+    animation :13s abc infinite alternate;
+}
+@keyframes abc{
+    50%{
+        margin-top: 13px;
+
+    }
+    100%{
+        margin-bottom: 13px;
+    }
+}
+
